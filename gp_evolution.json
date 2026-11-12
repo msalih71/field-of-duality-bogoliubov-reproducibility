@@ -1,0 +1,54 @@
+{
+ "A_constant_g": {
+  "T_reached": 399.6,
+  "delta_initial": 2.0000009999243673e-06,
+  "delta_max": 2.0000009999243673e-06,
+  "delta_final": 9.749749940723973e-08,
+  "delta_last_quarter_max": 1.0087402690928116e-07,
+  "residual_with_analytic_V": 8.736073488029678e-08,
+  "residual_after_discrete_correction": 6.879823225194419e-08,
+  "seconds": 62.44947838783264
+ },
+ "B_constant_c": {
+  "T_reached": 399.6,
+  "delta_initial": 2.0000009999243673e-06,
+  "delta_max": 2.0000009999243673e-06,
+  "delta_final": 9.231917053043048e-08,
+  "delta_last_quarter_max": 9.825286206854855e-08,
+  "residual_with_analytic_V": 8.736073468056555e-08,
+  "residual_after_discrete_correction": 6.879823225194419e-08,
+  "seconds": 60.170851707458496
+ },
+ "control_pair_half_length_8": {
+  "T_reached": 599.4,
+  "delta_initial": 2.0000009999243673e-06,
+  "delta_max": 0.22686365835266353,
+  "delta_final": 0.22224468143917986,
+  "delta_last_quarter_max": 0.22686365835266353,
+  "residual_with_analytic_V": 8.736101222754749e-08,
+  "residual_after_discrete_correction": 6.879864069680939e-08,
+  "seconds": 90.49519205093384,
+  "predicted_fastest_growth_rate": 0.03497049771857511,
+  "predicted_fastest_re_omega": 7.499159547139407e-13,
+  "fitted_growth_rate": 0.03461277180075501,
+  "fit_t0": 152.847,
+  "fit_t1": 316.683,
+  "ratio_fitted_to_predicted": 0.9897706369323395
+ },
+ "control_pair_half_length_14": {
+  "T_reached": 524.475,
+  "delta_initial": 2.0000009997023227e-06,
+  "delta_max": 0.301249649473629,
+  "delta_final": 0.301249649473629,
+  "delta_last_quarter_max": 0.301249649473629,
+  "residual_with_analytic_V": 8.736063745582438e-08,
+  "residual_after_discrete_correction": 6.879819881015612e-08,
+  "seconds": 62.96171545982361,
+  "predicted_fastest_growth_rate": 0.02704014669288566,
+  "predicted_fastest_re_omega": -1.9821659020268882e-13,
+  "fitted_growth_rate": 0.02687696715366965,
+  "fit_t0": 210.78900000000002,
+  "fit_t1": 421.57800000000003,
+  "ratio_fitted_to_predicted": 0.9939652864657372
+ }
+}

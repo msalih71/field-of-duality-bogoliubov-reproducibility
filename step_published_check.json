@@ -1,0 +1,71 @@
+{
+ "parameters": {
+  "v0_over_cu": 0.75,
+  "v0_over_cd": 1.5
+ },
+ "published": {
+  "Eq21_omega_Sd1d1_sq": 0.008318705273436717,
+  "Eq28_omega_Sud2_sq": 0.06654964218749373,
+  "Eq48_abs_Suu_Sd1u": 0.14430750636460155,
+  "Eq48_abs_Suu_Sd2u": 0.02886150127292031
+ },
+ "omega_max": 0.10025426951884897,
+ "rows": [
+  {
+   "omega": 1e-05,
+   "Eq21_omega_Sd1d1_sq": 0.00831860320218726,
+   "Eq28_omega_Sud2_sq": 0.06654474422275049,
+   "Eq48_abs_Suu_Sd1u": 0.14430750653185043,
+   "Eq48_abs_Suu_Sd2u": 0.028861501227976,
+   "Eq21_omega_Sd1d1_sq_ratio": 0.9999877299115546,
+   "Eq28_omega_Sud2_sq_ratio": 0.9999264013361717,
+   "Eq48_abs_Suu_Sd1u_ratio": 1.0000000011589756,
+   "Eq48_abs_Suu_Sd2u_ratio": 0.9999999984427591
+  },
+  {
+   "omega": 0.0001,
+   "Eq21_omega_Sd1d1_sq": 0.008317681823254328,
+   "Eq28_omega_Sud2_sq": 0.0665006620399578,
+   "Eq48_abs_Suu_Sd1u": 0.14430752308950046,
+   "Eq48_abs_Suu_Sd2u": 0.028861496778500296,
+   "Eq21_omega_Sd1d1_sq_ratio": 0.9998769700153152,
+   "Eq28_omega_Sud2_sq_ratio": 0.9992640058469745,
+   "Eq48_abs_Suu_Sd1u_ratio": 1.0000001158976364,
+   "Eq48_abs_Suu_Sd2u_ratio": 0.9999998442762914
+  },
+  {
+   "omega": 0.001,
+   "Eq21_omega_Sd1d1_sq": 0.008308198266361472,
+   "Eq28_omega_Sud2_sq": 0.06605979088680337,
+   "Eq48_abs_Suu_Sd1u": 0.1443091788923028,
+   "Eq48_abs_Suu_Sd2u": 0.028861051803644795,
+   "Eq21_omega_Sd1d1_sq_ratio": 0.9987369420204373,
+   "Eq28_omega_Sud2_sq_ratio": 0.9926393097755465,
+   "Eq48_abs_Suu_Sd1u_ratio": 1.000011590025657,
+   "Eq48_abs_Suu_Sd2u_ratio": 0.9999844266841401
+  },
+  {
+   "omega": 0.01,
+   "Eq21_omega_Sd1d1_sq": 0.00818754731078903,
+   "Eq28_omega_Sud2_sq": 0.06164587216098537,
+   "Eq48_abs_Suu_Sd1u": 0.14447514016341062,
+   "Eq48_abs_Suu_Sd2u": 0.028816280142702138,
+   "Eq21_omega_Sd1d1_sq_ratio": 0.9842333682542522,
+   "Eq28_omega_Sud2_sq_ratio": 0.9263141037979931,
+   "Eq48_abs_Suu_Sd1u_ratio": 1.0011616429597607,
+   "Eq48_abs_Suu_Sd2u_ratio": 0.9984331677763207
+  }
+ ],
+ "fig4_bracket": {
+  "q_below": -1.2,
+  "q_above": -1.35,
+  "omega_q_below": 0.037229961108798504,
+  "omega_q_above": 0.12152008910777234,
+  "cutoff_from_Eqs_4_5": 0.10025426951884892,
+  "cutoff_code": 0.10025426951884897,
+  "value_printed_in_Fig3_caption": 0.316,
+  "sqrt_of_cutoff": 0.31662954618741584,
+  "bracket_contains_cutoff": true,
+  "bracket_contains_printed_value": false
+ }
+}

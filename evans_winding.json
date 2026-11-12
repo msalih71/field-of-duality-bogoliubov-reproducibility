@@ -1,0 +1,212 @@
+{
+ "control_pair_half_length_8": {
+  "winding": 2.9999999999999987,
+  "points": 807,
+  "verified": true,
+  "max_phase_step": 0.49934018500141175,
+  "refinements": 8,
+  "min_abs_D": 0.0002200940425123482,
+  "n_nan": 0,
+  "rectangle": [
+   -1.0,
+   1.0,
+   0.001,
+   0.3
+  ],
+  "counts_vs_lower_edge": [
+   {
+    "im_lo": 0.02,
+    "winding": 0.9999999999999966,
+    "expected_from_scan": 1,
+    "verified": true,
+    "max_phase_step": 0.49937226019899184
+   },
+   {
+    "im_lo": 0.005,
+    "winding": 2.9999999999999987,
+    "expected_from_scan": 3,
+    "verified": true,
+    "max_phase_step": 0.49934018500141175
+   },
+   {
+    "im_lo": 0.002,
+    "winding": 2.9999999999999987,
+    "expected_from_scan": 3,
+    "verified": true,
+    "max_phase_step": 0.49934018500141175
+   },
+   {
+    "im_lo": 0.0006,
+    "winding": 5.0000000000000036,
+    "expected_from_scan": 5,
+    "verified": true,
+    "max_phase_step": 0.49934018500141175
+   }
+  ],
+  "expected_from_scan": 3,
+  "seconds": 30.404130220413208
+ },
+ "control_pair_half_length_14": {
+  "winding": 5.000000000000001,
+  "points": 1023,
+  "verified": true,
+  "max_phase_step": 0.4994175032078215,
+  "refinements": 7,
+  "min_abs_D": 0.0004748837442990796,
+  "n_nan": 0,
+  "rectangle": [
+   -1.0,
+   1.0,
+   0.001,
+   0.3
+  ],
+  "counts_vs_lower_edge": [
+   {
+    "im_lo": 0.02,
+    "winding": 1.000000000000001,
+    "expected_from_scan": 1,
+    "verified": true,
+    "max_phase_step": 0.49862219244665507
+   },
+   {
+    "im_lo": 0.005,
+    "winding": 2.9999999999999942,
+    "expected_from_scan": 3,
+    "verified": true,
+    "max_phase_step": 0.4993132127564867
+   },
+   {
+    "im_lo": 0.002,
+    "winding": 5.000000000000005,
+    "expected_from_scan": 5,
+    "verified": true,
+    "max_phase_step": 0.4984243174590221
+   },
+   {
+    "im_lo": 0.0006,
+    "winding": 6.9999999999999964,
+    "expected_from_scan": 7,
+    "verified": true,
+    "max_phase_step": 0.4994405622050829
+   }
+  ],
+  "expected_from_scan": 5,
+  "seconds": 51.74873661994934
+ },
+ "A_constant_g": {
+  "winding": 0.0,
+  "points": 4384,
+  "verified": true,
+  "max_phase_step": 0.4964631336254002,
+  "refinements": 1,
+  "min_abs_D": 0.0010790967410686664,
+  "n_nan": 0,
+  "rectangle": [
+   -10.099999999999998,
+   10.099999999999998,
+   0.001,
+   1.05
+  ],
+  "v_max": 1.4999999999999998,
+  "sup_g_n0": 1.0,
+  "apriori_bound_abs_omega": 9.999999999999998,
+  "apriori_bound_im_omega": 1.0,
+  "seconds": 44.05393075942993,
+  "winding_coarser_step": -9.04691109394067e-15,
+  "counts_vs_lower_edge": [
+   {
+    "im_lo": 0.0001,
+    "winding": 0.0,
+    "points": 4452,
+    "verified": true,
+    "max_phase_step": 0.4974801615636989,
+    "min_abs_D": 0.00010797257310368848
+   },
+   {
+    "im_lo": 1e-05,
+    "winding": 0.0,
+    "points": 4521,
+    "verified": true,
+    "max_phase_step": 0.4985535947323346,
+    "min_abs_D": 1.0791517691239854e-05
+   },
+   {
+    "im_lo": 1e-06,
+    "winding": -9.04691109394067e-15,
+    "points": 4591,
+    "verified": true,
+    "max_phase_step": 0.4996765660621823,
+    "min_abs_D": 1.0801765525513205e-06
+   }
+  ],
+  "real_axis": {
+   "n_frequencies": 247,
+   "omega_range": [
+    0.01560004753427615,
+    3.12000950685523
+   ],
+   "min_d": 0.03360789502484602,
+   "argmin_omega_over_max": 0.02,
+   "min_d_over_omega": 0.14798315171948323,
+   "n_nan": 0
+  }
+ },
+ "B_constant_c": {
+  "winding": 0.0,
+  "points": 4436,
+  "verified": true,
+  "max_phase_step": 0.49732741137683895,
+  "refinements": 1,
+  "min_abs_D": 0.0007036633327531981,
+  "n_nan": 0,
+  "rectangle": [
+   -10.099999999999998,
+   10.099999999999998,
+   0.001,
+   1.05
+  ],
+  "v_max": 1.4999999999999998,
+  "sup_g_n0": 1.0,
+  "apriori_bound_abs_omega": 9.999999999999998,
+  "apriori_bound_im_omega": 1.0,
+  "seconds": 45.83980083465576,
+  "winding_coarser_step": 0.0,
+  "counts_vs_lower_edge": [
+   {
+    "im_lo": 0.0001,
+    "winding": 0.0,
+    "points": 4504,
+    "verified": true,
+    "max_phase_step": 0.4923079573817673,
+    "min_abs_D": 7.038591582475436e-05
+   },
+   {
+    "im_lo": 1e-05,
+    "winding": 0.0,
+    "points": 4573,
+    "verified": true,
+    "max_phase_step": 0.499783678374001,
+    "min_abs_D": 7.033681084513742e-06
+   },
+   {
+    "im_lo": 1e-06,
+    "winding": -4.523455546970335e-15,
+    "points": 4644,
+    "verified": true,
+    "max_phase_step": 0.4776062424414442,
+    "min_abs_D": 7.041288403824035e-07
+   }
+  ],
+  "real_axis": {
+   "n_frequencies": 247,
+   "omega_range": [
+    0.008020341561507913,
+    1.6040683123015826
+   ],
+   "min_d": 0.01127840109127915,
+   "argmin_omega_over_max": 0.02,
+   "min_d_over_omega": 0.37614225232786386,
+   "n_nan": 0
+  }
+ }
+}
