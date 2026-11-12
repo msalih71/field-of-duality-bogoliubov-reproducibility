@@ -1,0 +1,27 @@
+{
+  "title": "Locality and Symplectic Structure of Gradient Representations of Bogoliubov Dynamics: Reproducibility Code and Data",
+  "upload_type": "software",
+  "description": "Source code, numerical verification data, convergence checks, independent scattering and Evans calculations, and generated figures accompanying a research manuscript on locality and symplectic structure in gradient representations of Bogoliubov dynamics. This record does not include the manuscript or editorial correspondence. The original test-7 N=8000 acceptance criterion is not met (absolute discrepancy approximately 1.15066e-7 against 1e-7 tolerance); refined-grid and independent-reference data are preserved.",
+  "creators": [
+    {
+      "name": "Salih, Mahgoub A.",
+      "affiliation": "Department of Physics, College of Science, Qassim University, Buraydah 51452, Saudi Arabia",
+      "orcid": "0000-0001-8652-9842"
+    },
+    {
+      "name": "Arbab, Arbab I."
+    }
+  ],
+  "keywords": [
+    "Bogoliubov dynamics",
+    "Gross-Pitaevskii equation",
+    "symplectic structure",
+    "locality",
+    "sonic horizons",
+    "reproducibility",
+    "numerical scattering",
+    "Evans function"
+  ],
+  "version": "1.0.0",
+  "access_right": "open"
+}
