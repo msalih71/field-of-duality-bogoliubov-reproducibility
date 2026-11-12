@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the archived release when its DOI becomes available."
+type: software
+title: "Locality and Symplectic Structure of Gradient Representations of Bogoliubov Dynamics: Reproducibility Code and Data"
+authors:
+  - family-names: Salih
+    given-names: Mahgoub A.
+    orcid: "https://orcid.org/0000-0001-8652-9842"
+    affiliation: "Department of Physics, College of Science, Qassim University, Buraydah 51452, Saudi Arabia"
+  - family-names: Arbab
+    given-names: Arbab I.
+repository-code: "https://github.com/msalih71/field-of-duality-bogoliubov-reproducibility"
+version: 1.0.0
+date-released: 2026-11-12
+keywords:
+  - Bogoliubov dynamics
+  - Gross-Pitaevskii equation
+  - symplectic structure
+  - sonic horizons
+  - numerical reproducibility
