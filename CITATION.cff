@@ -1,6 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the archived release when its DOI becomes available."
+message: "If you use this code or data, please cite the archived software and data release."
 type: software
+doi: "10.5281/zenodo.24165601"
+url: "https://doi.org/10.5281/zenodo.24165601"
 title: "Locality and Symplectic Structure of Gradient Representations of Bogoliubov Dynamics: Reproducibility Code and Data"
 authors:
   - family-names: Salih
