@@ -1,0 +1,4 @@
+Title: Reproducibility files
+Description: Numerical datasets, source code, symbolic tests, scattering and Evans calculations, and independent test-7 replication for the accompanying Bogoliubov dynamics manuscript.
+
+This archive preserves the v13 numerical results. The original numerical threshold in test 7 is NOT met at N=8000.
