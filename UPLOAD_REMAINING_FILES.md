@@ -1,31 +1,28 @@
-# Complete the Field of Duality reproducibility upload
+# Upload completed
 
-## Current state
+The reproducibility code/data upload was verified on 12 November 2026.
 
-This GitHub repository was initialized through the connected GitHub integration, but the full 56-file local archive is **not yet** uploaded. No claim of complete online reproducibility should be made until all files appear.
+The GitHub repository now includes the original research code, numerical JSON/NPZ result files, figures, symbolic checks, test suite and documentation, organised under:
 
-## Verified full upload kit
+- `src/`
+- `results/`
+- `figures/`
+- `derivations/`
+- `tests/`
+- `generated_tables/`
 
-The accompanying ChatGPT conversation provides `field-of-duality-upload-kit.zip`, which contains:
+The original acceptance test 7 at `N=8000` remains **FAIL** against the fixed absolute threshold `1e-7`. Higher-resolution and independent-reference checks are available in `results/test7_independent.json`. These do not retroactively change the original result.
 
-- `field-of-duality-github-ready.zip` — exact 56-file code/data-only archive
-- `upload_to_github.ps1` — Git for Windows upload script
-- `upload-manifest.json` — SHA-256 checksums for all 56 files
+The manuscript PDF/source and editorial correspondence are not included. This repository has no permanent archival DOI yet.
 
-Full source archive SHA-256: `5c9546e4fada7a2ba3f084b93ff19d8a3843cbbe630c769f3a3c767d1ce0e0f0`.
+Run the lightweight checks in a clean Python environment:
 
-On Windows, extract the upload kit, open PowerShell in its folder and run:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\upload_to_github.ps1
+```bash
+python -m pip install -r requirements.txt
+python -m pytest -q tests
+python derivations/symbolic_checks.py
 ```
 
-The script uses the Git Credential Manager or existing git login; no password or access token needs to be pasted into ChatGPT. It clones this repository, copies only approved code/data files, checks the 56-file archive for unexpected filenames, commits, and pushes the result. The manuscript, editorial correspondence and referee materials are excluded.
+To run the independent test-7 reference, use `python src/test7_independent.py`. Heavy computations take longer.
 
-## After uploading
-
-Check that GitHub includes `src/fod_scattering.py`, `src/test7_independent.py`, `results/test7_independent.json`, `results/verification.json`, and the `figures/` folder.
-
-The original test-7 tolerance is `1e-7`, and the `N=8000` result remains **FAIL**.
-
-Do not cite this repository as the complete data/code archive until the expected assets have been verified online.
+Previous local upload instructions are retained only for provenance; no additional browser upload is needed.
