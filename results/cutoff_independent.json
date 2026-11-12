@@ -1,0 +1,10 @@
+{
+  "v0": 0.75,
+  "c_downstream": 0.5,
+  "k_turning": 0.6176915790361985,
+  "omega_cutoff_independent": 0.10025426951884892,
+  "omega_cutoff_analytic_saved": 0.10025426951884897,
+  "absolute_difference": 5.551115123125783e-17,
+  "method": "scipy.optimize.minimize_scalar bounded, independent dispersion implementation",
+  "scope": "step benchmark parameters only; does not decide provenance of published caption 0.316"
+}
