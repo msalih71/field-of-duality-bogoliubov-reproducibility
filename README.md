@@ -47,7 +47,7 @@ Complex-frequency Evans calculations offer numerical spectral exclusion only wit
 
 ## Citation and licensing
 
-This repository is a code/data companion to a manuscript in preparation/submission; it does not claim the article has been published. A permanent DOI may be added after an archive deposit. No open-source license is asserted until rights-holder approval.
+This repository is a code/data companion to a manuscript in preparation/submission; it does not claim the article has been published. The Zenodo archive DOI supplied by the authors is **[10.5281/zenodo.24165601](https://doi.org/10.5281/zenodo.24165601)**. The [GitHub v1.0.0 release](https://github.com/msalih71/field-of-duality-bogoliubov-reproducibility/releases/tag/v1.0.0) is the corresponding tagged code/data release. This is **not** a DOI for the unpublished journal article. No open-source license is asserted in this GitHub repository until rights-holder approval.
 
 ## Authorship and contact
 
