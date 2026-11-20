@@ -14,6 +14,12 @@ The project studies the gradient representation of density–phase fluctuations 
 
 and compares relative-field and frequency-closed gradient representations for sonic-horizon scattering.
 
+## Focused locality note (v28)
+
+The short manuscript **Locality Obstructions in Gradient Representations of Bogoliubov Dynamics** is a distinct focused mathematical note. Its symbolic differentiation check is available in [short_note_v28/](short_note_v28/SHORT_NOTE_REPRODUCIBILITY.md). This check covers the formal differentiation only; the proof of the locality criterion uses separate smooth-test-function arguments.
+
+The existing GitHub [v1.0.0 release](https://github.com/msalih71/field-of-duality-bogoliubov-reproducibility/releases/tag/v1.0.0) and associated Zenodo DOI are from the **extended numerical project**, and **do not contain** the later short-note verification directory. Do not cite them as an archive of the v28 manuscript or as independent proof of its locality theorem.
+
 ## Numerical reproducibility
 
 The accompanying local release archive contains:
